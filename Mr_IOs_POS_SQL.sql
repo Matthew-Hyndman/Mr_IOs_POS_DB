@@ -4,12 +4,17 @@ CREATE TABLE `items` (
   `itemID` int NOT NULL,
   `Item_Name` varchar(50) NOT NULL,
   `No_In_Stock` int NOT NULL,
-  `Cost_Inc_VAT` double NOT NULL,
+  `Stock_Value` double NOT NULL,
+  `Cost_Ex_VAT` double NOT NULL,
+  `Input VAT` double DEFAULT NULL,
+  `Total Cost` double NOT NULL,
+  `Selling_Price_Ex_VAT` double NOT NULL,
+  `Inc_VAT` tinyint NOT NULL,
+  `Output_VAT` double DEFAULT NULL,
   `markUp` double NOT NULL,
   `Is_markUp_Percent` tinyint NOT NULL,
-  `Selling_Price` double NOT NULL,
+  `Total_Selling_Price` double NOT NULL,
   `RRP` double NOT NULL,
-  `Inc_VAT` tinyint NOT NULL,
   PRIMARY KEY (`itemID`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 

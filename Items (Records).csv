@@ -1,4 +1,4 @@
-itemID,Item_Name,No_In_Stock,Cost_Inc_VAT,markUp,Is_markUp_Percent,Selling_Price,RRP,Inc_VAT
-1000,"Black Mug",561,5,1,1,7.5,10,1
-1001,"Blue Pen",1235,0.5,0.1,1,1,2,1
-1002,"Red Pen",1421,0.5,0.1,1,1,2,1
+itemID,Item_Name,No_In_Stock,Stock_Value,Cost_Ex_VAT,"Input VAT","Total Cost",Selling_Price_Ex_VAT,Inc_VAT,Output_VAT,markUp,Is_markUp_Percent,Total_Selling_Price,RRP
+1000,"Black Mug",561,2805,5,1,6,7,1,1.4,20,1,8.4,10
+1001,"Blue Pen",1235,617.5,0.5,0.1,0.7,1,1,0.2,20,1,1.2,2
+1002,"Red Pen",1421,710.5,0.5,0.1,0.7,1,1,0.2,20,1,1.2,2
